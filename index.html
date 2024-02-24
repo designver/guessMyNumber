@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Guess my number</title>
+  </head>
+  <body>
+    <main class="game">
+      <div class="container">
+        <h1>Guess my number</h1>
+        <div class="content">
+          <div class="score-section">
+            <p class="secret-number">?</p>
+            <p class="label-score">Score: <span class="score">20</span></p>
+          </div>
+          <div class="guessing-section">
+            <p class="message">Start guessing...</p>
+            <input type="number" class="guess" value="" min="1" max="20" />
+            <button class="btn check">Check!</button>
+          </div>
+          <button class="btn new-game">&#10095; &#10095; New game &#10094; &#10094;</button>
+        </div>
+        <p class="between">* Insert number between 1 and 20</p>
+      </div>
+    </main>
+  </body>
+</html>
